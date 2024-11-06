@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: azure;
+    width: 100%;
+    height: 690px;
+    background: rgba(0, 0, 0,0.6)url("https://assets.nflxext.com/ffe/siteui/vlv3/826348c2-cdcb-42a0-bc11-a788478ba5a2/6d20b198-e7ab-4e9f-a1aa-666faa0298f9/IN-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_a67d8c9e-8121-4a74-98e4-8005eb2df227_small.jpg");
+    background-blend-mode: darken;
+}
+.nav{
+    width: 100%;
+    height: 30px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    padding-left: 150px;
+
+}
+h1{
+    color: red;
+    margin-left:7%;
+    font-size: 90px;
+    
+    
+}
+.btn{
+    width: 100px;
+    height: 29px;
+    padding: 6px 20px;
+    border-radius: 2%;
+    margin-right: 17%;
+   align-self: center;
+    background-color:red;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.btnn{
+width: 60px;
+    height: 22px;
+    padding: 6px 20px;
+    border-radius: 5%;
+   margin-right: 15%;
+    background-color: rgb(205, 13, 13);
+    color: white;
+    text-decoration: none;
+    cursor: pointer; }
+select{
+    
+    margin-left: 700px;
+    padding:5px 10px 5px 10px;
+    background-color: black;
+    border: 2px solid gainsboro;
+    
+    color: aliceblue;
+
+}
+.home{
+   position: absolute;
+    margin-top: 10%;
+    margin-left: 30%;
+    text-align: center;
+}
+.mail{
+    width: 100%;
+    height: fit-content;
+    align-self: center;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.mail input{
+    
+    outline:invert;
+    border: none;
+    size: 1cm;
+    margin-left: 115px;
+    padding-left: 15px;
+    
+    
+
+    
+}
+.mail a{
+    height: fit-content;
+
+}
